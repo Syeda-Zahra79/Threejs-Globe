@@ -1,0 +1,22 @@
+{
+  "name": "intermediate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "three": "^0.161.0",
+    "vite-plugin-string": "^1.2.3"
+  }
+}

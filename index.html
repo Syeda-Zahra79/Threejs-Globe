@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Vite App</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .flex {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      border: 1px solid brown;
+    }
+
+    .flex>div {
+      width: 50%;
+      background: #000;
+    }
+
+    .first {
+      display: flex;
+      padding-left: 3em;
+      flex-direction: column;
+      color: white;
+      text-transform: capitalize;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: "Exo 2", sans-serif;
+      font-size: 2.7em;
+      font-style: italic;
+      font-weight: bold;
+      margin-bottom: .5em;
+    }
+
+    p {
+      color: rgb(128, 128, 128);
+      width: 70%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-bottom: .5em;
+    }
+
+    button {
+      background: rgb(30, 93, 24);
+      padding: 1em 2em;
+      margin-top: 1em;
+      outline: none;
+      border: none;
+      border-radius: 50px;
+      width: fit-content;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex">
+    <div class="first">
+      <h1>Challenging the Standard of space eploration</h1>
+      <p>Millions of developers and companies build, ship, and maintain their software on Github - the largets and most
+        advanced development platform in the world</p>
+      <button>Learn More</button>
+    </div>
+
+    <div class="w-1/2" id="canvasContainer">
+      <canvas></canvas>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
